@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="description" content="Ossege Online – die persönliche Website von Piet und Emil Ossege.">
+  <title>Ossege Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <nav class="nav shell" aria-label="Hauptnavigation">
+      <a class="brand" href="index.html" aria-label="Ossege Online Startseite">
+        <span class="brand-mark" aria-hidden="true">O</span>
+        <span>Ossege Online</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menü öffnen">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="kontakt-piet.html">Piet</a>
+        <a href="kontakt-emil.html">Emil</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="cropped-baum.png" alt="Baum im warmen Sonnenlicht" fetchpriority="high">
+      <div class="hero-scrim"></div>
+      <div class="hero-content shell reveal">
+        <p class="eyebrow">Willkommen bei</p>
+        <h1>Ossege<br><span>Online.</span></h1>
+        <p class="hero-copy">Eine persönliche Website von Piet und Emil Ossege.</p>
+        <a class="pill-button pill-button-light" href="#personen">Entdecken <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="intro section shell reveal">
+      <div class="section-kicker">Ossege Online</div>
+      <div class="intro-grid">
+        <h2>Menschen.<br>Profile.<br>Verbindungen.</h2>
+        <div>
+          <p class="lead">Willkommen auf der persönlichen Seite von Piet und Emil Ossege.</p>
+          <p>Hier findest du die jeweiligen Kontaktmöglichkeiten, Profile und weiterführenden Links – übersichtlich an einem Ort.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="people section" id="personen">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div>
+            <div class="section-kicker">Profile</div>
+            <h2>Wer steckt dahinter?</h2>
+          </div>
+          <p>Zwei Profile, eine gemeinsame Anlaufstelle.</p>
+        </div>
+
+        <div class="profile-grid">
+          <a class="profile-card reveal" href="kontakt-piet.html">
+            <div class="profile-image-wrap"><img src="piet.png" alt="Piet Ossege"></div>
+            <div class="profile-card-body">
+              <div><span class="small-label">Profil</span><h3>Piet Ossege</h3></div>
+              <span class="circle-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+          <a class="profile-card reveal reveal-delay" href="kontakt-emil.html">
+            <div class="profile-image-wrap"><img src="emil.png" alt="Emil Ossege"></div>
+            <div class="profile-card-body">
+              <div><span class="small-label">Profil</span><h3>Emil Ossege</h3></div>
+              <span class="circle-arrow" aria-hidden="true">↗</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote section shell reveal">
+      <div class="quote-card">
+        <span class="quote-mark">“</span>
+        <p>Schön, dass du hier bist.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-main">
+      <div>
+        <div class="brand footer-brand"><span class="brand-mark">O</span><span>Ossege Online</span></div>
+        <p class="footer-note">Persönliche Kontaktseite für Piet und Emil Ossege.</p>
+      </div>
+      <div class="footer-links">
+        <a href="kontakt-piet.html">Piet</a>
+        <a href="kontakt-emil.html">Emil</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span data-year></span> Ossege Online</span><span>Made for the web.</span></div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
